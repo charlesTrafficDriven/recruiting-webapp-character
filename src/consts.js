@@ -7,6 +7,15 @@ export const ATTRIBUTE_LIST = [
     'Charisma',
 ];
 
+export const ATTRIBUTE_LIST_WITH_NUMBER = [
+    { name: "Strength", value: 0 },
+    { name: "Dexterity", value: 0 },
+    { name: "Constitution", value: 0 },
+    { name: "Intelligence", value: 0 },
+    { name: "Wisdom", value: 0 },
+    { name: "Charisma", value: 0 },
+];
+
 export const CLASS_LIST = {
     'Barbarian': {
         'Strength': 14,
